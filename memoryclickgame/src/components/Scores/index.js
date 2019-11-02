@@ -13,12 +13,7 @@ class Scores extends Component {
     
     render() {
         return (
-          <div className="card text-center">
-            <div className="card-body">
-              <p className="card-text">Score: {this.state.score} High Score: {this.state.highScore}</p>
-              {/* <p className="card-text">High Score: {this.state.highScore}</p> */}
-            </div>
-          </div>
+              <p>Score: <span>{this.state.score}</span> High Score: <span>{this.state.highScore}</span></p>
         );
       }
 }
