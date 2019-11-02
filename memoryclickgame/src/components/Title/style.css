@@ -1,0 +1,18 @@
+.title {
+  line-height: 0.4;
+}
+
+h1 {
+  width: 100%;
+  text-align: left;
+  font-size: 4rem;
+  color: #71b7e9;
+  margin-bottom: 5px;
+}
+
+h3 {
+  text-align: left;
+  font-size: 2rem;
+  color: #cedde7;
+  margin-bottom: 5px;
+}
